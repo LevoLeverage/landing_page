@@ -1,0 +1,43 @@
+.header {
+    
+    background-color: #1F2937;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    width: 100px;
+}
+
+.logo {
+    margin-right: auto;
+    flex: auto;
+    padding: 12px 9px 9px 100px;
+}
+
+.link-one {
+    flex: 0 1 100px;
+}
+
+.link-two,
+.link-three {
+    flex: 0 1 170px;
+}
+.link-three{
+    margin-right: 100px ;
+}
+
+.hero {
+    display: flex;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+.left-side button {
+    flex: 0 1 100px;
+}
